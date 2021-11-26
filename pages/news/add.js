@@ -1,7 +1,9 @@
+import Layout from "../../components/Layout"
+
 export default function AddNewsPage() {
     return (
-        <div>
-            <h1>Add News</h1>
-        </div>
+       <Layout title='Add news'>
+            <h1>Add your news articls</h1>
+            </Layout>
     )
 }
