@@ -1,27 +1,50 @@
 import Head from 'next/head'
+import {useRouter} from 'next/router'
 import Header from './Header'
 import Footer from './Footer'
-import styles from '../styles/Layout.module.css'
+import Showcase from './Showcase'
+import CategoryList from '@/components/CategoryList'
 
-export default function Layout({title, keywords, desciprtion, children}) {
+export default function Layout({title, keywords, desciprtion, children, categories}) {
+    const router = useRouter()
+
     return (
-        <div>
+        <div className="flex flex-col h-screen justify-between">
             <Head>
                 <title>{title}</title>
+                <link rel='icon' href='/favicon.ico' />
                 <meta name='description' content={desciprtion} />
                 <meta name='keywords' content={keywords} />
             </Head>
 
             <Header />
-            <div className={styles.container}>{children}
-                </div>
-                <Footer />
-        </div>
+
+            {router.pathname === '/' && <Showcase />}
+
+{/* <div className='hidden sm:block'>sm</div>
+<div className='hidden md:block'>md</div>
+<div className='hidden lg:block'>lg</div>
+<div className='hidden xl:block'>xl</div>
+<div className='hidden 2xl:block'>2xl</div>  */}
+    
+<main className='mb-auto container mx-auto px-5'>
+<div className='my-5'>
+<CategoryList categories={categories} />
+</div>
+<div className=''>
+{children}
+</div>
+</main>
+
+<div className='py-5'>
+<Footer />
+</div>
+</div>
     )
 }
 
 Layout.defaultProps = {
-    title: 'News | Find the truth',
+    title: 'the Quotes News | Find the truth',
     description: 'Find the latest news',
-    keywords: 'news, politics, events'
+    keywords: 'news, politics, technology'
 }
