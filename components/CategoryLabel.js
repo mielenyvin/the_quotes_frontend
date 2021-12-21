@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function CategoryLabel({ children }) {
   const colorKey = {
-    Politics: 'qbluelite',
+    Politics: 'qte',
     Business: 'qblue',
     Technology: 'qblue',
     Culture: 'qblue',
