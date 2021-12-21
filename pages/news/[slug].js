@@ -51,11 +51,11 @@ export default function NewsPage({nw}) {
 
 <div dangerouslySetInnerHTML={{__html: marked(nw.Media1_text)}}></div>
 
-<div className='pb-5'>Article source: <a className='underline' href={nw.reference1}>{nw.reference1}</a></div>
+<div className='pb-5'>Article source: <a className='underline break-words' href={nw.reference1}>{nw.reference1}</a></div>
 
 </div>
 
-<div className='w-full lg:w-6/12 mt-5 md:ml-5 p-5  bg-qverylitegray rounded-lg shadow-md '> 
+<div className='w-full lg:w-6/12 mt-5 lg:ml-5 p-5  bg-qverylitegray rounded-lg shadow-md '> 
 
 <div className='flex align-baseline'>
 {nw.image && (<img alt='' className='mr-5 mb-5 border p-1' src={nw.media_2_logo.url} width={100} height={100} /> ) }
@@ -69,7 +69,7 @@ export default function NewsPage({nw}) {
 
 <div dangerouslySetInnerHTML={{__html: marked(nw.Media2_text)}}></div>
 
-<div className='pb-5'>Article source: <a className='underline' href={nw.reference2}>{nw.reference2}</a></div>
+<div className='pb-5'>Article source: <a className='underline break-words' href={nw.reference2}>{nw.reference2}</a></div>
 </div>
 
 </div>
