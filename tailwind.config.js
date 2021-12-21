@@ -6,6 +6,7 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       'white': '#ffffff',
+      'qbluelite': '#233a6c',
       'metal': '#565584',
       'silver': '#evebff',
       'alyminium': '#161616',
