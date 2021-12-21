@@ -14,6 +14,7 @@ module.exports = {
       'qblue': '#14213d',
       'qellow': '#fca311',
       'qgrey': '#e5e5e5',
+      'qgreydark': '#999999',
       'qred': '#a4161a',
       'qorange': '#dc2f02',
       'qgreen': '#76c893',

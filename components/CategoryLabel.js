@@ -7,7 +7,7 @@ export default function CategoryLabel({ children }) {
     Technology: 'qellow',
     Culture: 'qgreen',
     Sport: 'qred',
-    Health: 'qorange',
+    Health: 'qgreydark',
   }
 
   return (
