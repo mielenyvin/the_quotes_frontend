@@ -17,9 +17,9 @@ setTerm('')
 
   
 
-<div className='relative bg-gray-7600 p-4'>
+<div className='relative bg-gray p-4'>
 <div className='container mx-auto flex items-center justify-center md:justify-end'>
-  <div className='relative text-alyminium w-72'>
+  <div className='relative text-gray w-72'>
     <form onSubmit={handleSubmit}>
         <input type='text' value={term} onChange={(e) => setTerm(e.target.value)} placeholder = 'Search Posts...' 
         className='bg-white h-10 px-5 pr-10 rounded-full text-sm focus:outline-none w-72'/>

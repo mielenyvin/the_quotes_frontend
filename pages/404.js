@@ -13,7 +13,7 @@ export default function NotFoundPage() {
                 <h1 className='text-6xl my-5'>
                 {/* <FaExclamationTriangle /> */}
                     404</h1>
-                <h2 className='text-4xl text-gray-400 mb-5'>Sorry, there is nothing here</h2>
+                <h2 className='text-4xl text-qgray mb-5'>Sorry, there is nothing here</h2>
                 <Link href='/'>Go Back Home</Link>
             </div>
             {/* </div> */}
