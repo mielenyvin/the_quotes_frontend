@@ -12,6 +12,7 @@ export default function Header() {
 <div className='hidden  bg-metal'></div>
 <div className='hidden bg-qgreydark'></div>
 <div className='hidden bg-qte'></div>
+<div className='hidden bg-qorange'></div>
 
                <div className='container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center'>
                <Link href='/'>
