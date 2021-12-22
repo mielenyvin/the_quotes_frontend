@@ -4,7 +4,7 @@ export default function CategoryLabel({ children }) {
   const colorKey = {
     Politics: 'qblue',
     Business: 'qgreydark',
-    Technology: 'metal',
+    Technology: 'qorange',
     Culture: 'alyminium',
     Sport: 'qte',
     Health: 'steel'
