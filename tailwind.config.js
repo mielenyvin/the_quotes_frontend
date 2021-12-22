@@ -1,9 +1,9 @@
-const colors = require('tailwindcss/colors')
-
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  purge: ['./public/**/*.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    extend: {
+
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
@@ -26,6 +26,8 @@ module.exports = {
         'qverylitegray': '#fafafa',
         'qveryverylitegray' :'#fdfdfd'
       },
+
+    },
   },
   variants: {
     extend: {
@@ -35,3 +37,4 @@ module.exports = {
   },
   plugins: [],
 }
+
