@@ -5,7 +5,7 @@ import Search from './Search'
 export default function Header() {
     return (
 
-        <header className='bg-qblue text-white shadow w-full'>
+        <header className='bg-blue-900 text-white shadow w-full'>
                <div className='container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center'>
                <Link href='/'>
                    <a className='flex md:w-1/5 title-font font-medium items-center md:justify-start mt-3 mb-1 
@@ -20,13 +20,13 @@ export default function Header() {
             <Search />
 
                     <Link href='/about'>
-                        <div className='hidden sm:block'><a className='mx-3 hover:text-qorange cursor-pointer uppercase'>About</a></div>
+                        <div className='hidden sm:block'><a className='mx-3 hover:text-gray-800 cursor-pointer uppercase'>About</a></div>
                     </Link>
 
             </nav>
 
             <Link href='/about'>
-                        <div className='sm:hidden mb-3'><a className='mx-3  hover:text-qorange cursor-pointer uppercase'>About</a></div>
+                        <div className='sm:hidden mb-3'><a className='mx-3  hover:text-gray-800 cursor-pointer uppercase'>About</a></div>
                     </Link>
 
             </div>
