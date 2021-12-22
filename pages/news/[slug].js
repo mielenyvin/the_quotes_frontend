@@ -25,14 +25,14 @@ export default function NewsPage({nw}) {
 {nw.image && ( <img className='rounded-l-lg hidden md:block  w-full' src={nw.image.url} /> ) }
 </div>
 
-<div className='w-full md:w-6/12 px-5 py-2 md:py-0 xl:px-5 xl:py-4 2xl:px-6 2xl:py-5'>
-<div className=' mb-3 xl:mb-5 2xl:mb-6'>Publication date: <br className='hidden  md:block lg:hidden' />{new Date(nw.date).toLocaleDateString('en-GB', options)} </div>
+<div className='w-full md:w-6/12 px-5 py-2 md:py-5 xl:px-5 xl:py-4 2xl:px-6 2xl:py-5'>
+<div className='mb-3 xl:mb-5 2xl:mb-6'>Publication date: <br className='hidden  md:block lg:hidden' />{new Date(nw.date).toLocaleDateString('en-GB', options)} </div>
 
 <div className='mb-3 xl:mb-5 2xl:mb-6'>Photo source: <a className='underline font-bold' href={nw.reference1}>{nw.media1_name}</a></div>
 
-<div className='mb-5 xl:mb-6 2xl:mb-8'>Disclaimer: Below is only a comparison of news from different resources. <br className='hidden 2xl:block'/> The editorial board has nothing to do with both news articles.</div>
+<div className='mb-5 xl:mb-6 2xl:mb-8 md:text-xs'>Disclaimer: Below is only a comparison of news from different resources. <br className='hidden 2xl:block'/> The editorial board has nothing to do with both news articles.</div>
 
-<div className='flex mb-2'><CategoryLabel>{nw.category}</CategoryLabel></div>
+<div className='flex mb-2 md:mb-0'><CategoryLabel>{nw.category}</CategoryLabel></div>
 
 </div>
 
@@ -73,9 +73,9 @@ export default function NewsPage({nw}) {
 </div>
 
 </div>
-
+<br />
 <Link href='/'>
-<a className={styles.back}>{'<'} Go Back</a></Link></div>
+<a className=' text-qblue hover:text-qorange'>{'<'} Go Back</a></Link></div>
 
 </Layout>
     )
