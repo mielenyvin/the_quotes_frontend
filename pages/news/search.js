@@ -11,7 +11,7 @@ export default function SearchPage({ news }) {
 
   return (
     <Layout title='Search Results'>
-       <Link href='/'><div className='flex flex-row items-center text-qblue-900  hover:text-qellow'><div className='pr-1'><FaCaretLeft /></div><div className='pb-1'>Go Back</div></div></Link>
+       <Link href='/'><div className='flex flex-row items-center text-qblue  hover:text-qellow'><div className='pr-1'><FaCaretLeft /></div><div className='pb-1'>Go Back</div></div></Link>
       
       <h1 className='text-2xl mb-5'>Search Results for &#8221;{router.query.term}&#8221;</h1>
       {news.length === 0 && <h3>No news to show</h3>}

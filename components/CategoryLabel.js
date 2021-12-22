@@ -2,12 +2,12 @@ import Link from 'next/link'
 
 export default function CategoryLabel({ children }) {
   const colorKey = {
-    Politics: 'qblue-900',
-    Business: 'qblue-800',
-    Technology: 'qblue-700',
-    Culture: 'qblue-600',
-    Sport: 'qblue-500',
-    Health: 'qblue-400'
+    Politics: 'qblue',
+    Business: 'qblue',
+    Technology: 'qblue',
+    Culture: 'qblue',
+    Sport: 'qblue',
+    Health: 'qblue'
   }
 
   return (
