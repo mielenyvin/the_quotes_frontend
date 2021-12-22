@@ -5,7 +5,7 @@ import Search from './Search'
 export default function Header() {
     return (
 
-        <header className='bg-qorange text-white shadow w-full'>
+        <header className='bg-qblue bg-qorange text-white shadow w-full'>
                <div className='container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center'>
                <Link href='/'>
                    <a className='flex md:w-1/5 title-font font-medium items-center md:justify-start mt-3 
