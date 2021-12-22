@@ -30,7 +30,7 @@ export default function NewsPage({nw}) {
 
 <div className='mb-3 xl:mb-5 2xl:mb-6'>Photo source: <a className='underline font-bold' href={nw.reference1}>{nw.media1_name}</a></div>
 
-<div className='mb-5 xl:mb-6 2xl:mb-8 md:text-xs'>Disclaimer: Below is only a comparison of news from different resources. <br className='hidden 2xl:block'/> The editorial board has nothing to do with both news articles.</div>
+<div className='mb-5 xl:mb-6 2xl:mb-8'>Disclaimer: Below is only a comparison of news from different resources. <br className='hidden 2xl:block'/> <div className='block md:hidden lg:block'>The editorial board has nothing to do with both news articles.</div></div>
 
 <div className='flex mb-2 md:mb-0'><CategoryLabel>{nw.category}</CategoryLabel></div>
 
