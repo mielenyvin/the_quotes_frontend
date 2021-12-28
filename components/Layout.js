@@ -9,7 +9,7 @@ export default function Layout({title, keywords, desciprtion, children, categori
     const router = useRouter()
 
     return (
-        <div className="flex flex-col h-screen justify-between">
+        <div className="flex flex-col h-screen justify-between  bg-qverylitegray">
             <Head>
                 <title>{title}</title>
                 <link rel='icon' href='/favicon.ico' />

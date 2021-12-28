@@ -15,7 +15,7 @@ export default function NewsItemFeatured( {nw} ) {
  bg-gradient-to-l from-qgrey via-qgrey to-qgrey cursor-pointer rounded-lg mb-5 ' >
 
 <div id="newsarticlefeatured" className='container mx-auto flex flex-wrap flex-col sm:flex-col md:flex-row items-stretch
- bg-qverylitegray  cursor-pointer rounded-l-xl rounded-r-lg  shadow-md hover:shadow-lg' >
+ bg-white  cursor-pointer rounded-l-xl rounded-r-lg  shadow-md hover:shadow-lg' >
           
 <div className=' w-4/12 title-font font-medium items-center md:justify-start mt-0 sm:mt-0 mb-0 md:mb-0'>
     <img src={nw.image ? nw.image.url : '/images/event-default.png'} className='rounded-l-lg h-full w-full' 
