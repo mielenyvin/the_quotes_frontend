@@ -18,7 +18,7 @@ export default function NewsPage({nw}) {
             <div>
 
 {/* MAIN CONTAINER */}
-<div className='w-full flex flex-col md:flex-row bg-qverylitegray rounded-lg shadow-md '> 
+<div className='w-full flex flex-col md:flex-row bg-white rounded-lg shadow-md '> 
 
 <div className='w-full md:w-6/12'>
 {nw.image && ( <img className='rounded-t-lg md:hidden  w-full' src={nw.image.url} /> ) }
@@ -39,7 +39,7 @@ export default function NewsPage({nw}) {
 </div>
 
 <div className='flex flex-col lg:flex-row'>
-<div className='w-full lg:w-6/12 mt-5 p-5 md:flex-row bg-qverylitegray rounded-lg shadow-md '> 
+<div className='w-full lg:w-6/12 mt-5 p-5 md:flex-row bg-white rounded-lg shadow-md '> 
 
 <div className='flex align-baseline'>
 {nw.image && (<img alt='' className='mr-5 mb-5 border p-1' src={nw.media1_logo.url} width={100} height={100} /> ) }
@@ -55,7 +55,7 @@ export default function NewsPage({nw}) {
 
 </div>
 
-<div className='w-full lg:w-6/12 mt-5 lg:ml-5 p-5  bg-qverylitegray rounded-lg shadow-md '> 
+<div className='w-full lg:w-6/12 mt-5 lg:ml-5 p-5  bg-white rounded-lg shadow-md '> 
 
 <div className='flex align-baseline'>
 {nw.image && (<img alt='' className='mr-5 mb-5 border p-1' src={nw.media_2_logo.url} width={100} height={100} /> ) }
