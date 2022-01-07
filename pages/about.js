@@ -12,7 +12,7 @@ export default function AboutPage() {
                 <p className='mb-3'>
                 This is an app to find the latest news and make a comprehensive vision of them.</p>
                 <h1 className='text-2xl'>Project team:</h1>
-                <p><span className='font-bold'>Dmitrii Kotikov</span> (Russia)</p>
+                <p><span className='font-bold'>Dmitry Kotikov</span> (Russia)</p>
 
             </div>
 
