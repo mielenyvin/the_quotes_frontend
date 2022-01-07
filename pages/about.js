@@ -3,7 +3,7 @@ import Layout from '@/components/Layout'
 export default function AboutPage() {
     return (
         <Layout title='About the Quotes'>
-            <h1 className='text-5xl border-b-4 pb-5 font-bold'>About</h1>
+            <h1 className='text-5xl border-b-4 pb-5 font-bold'>About us</h1>
 
             <div className='bg-white  rounded-lg py-6 '>
                 <h3 className='text-2xl mb-5'>
