@@ -14,6 +14,10 @@ export default function AboutPage() {
                 <h1 className='text-2xl'>Project team:</h1>
                 <p><span className='font-bold'>Dmitry Kotikov</span> (Russia)</p>
 
+                <div className='flex flex-row items-center'>
+                <img className='ml-3 rounded-xl ' src='/images/dmitrii.jpg' width={100} height={100} alt='logo'/>
+                <ul className="list-disc pl-10"><li>Author of idea</li><li>Static site generators front-end and back-end development</li></ul>
+                </div>
 
                 <p><span className='font-bold'>Houda Jaouhari</span> (Morocco)</p>
 
