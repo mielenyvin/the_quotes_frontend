@@ -12,12 +12,25 @@ export default function AboutPage() {
                 <p>
                 This is an app to find the latest news and make a comprehensive vision of them.</p>
                 <h1 className='text-2xl'>Project team:</h1>
-               <p className='font-bold'>Dmitrii Kotikov (Russia)</p>
-                <img className='ml-3' className='rounded-2xl' src='/images/dmitrii.jpg' width={100} height={100} alt='logo'/>
-                <p  className='font-bold'>Houda Jaouhari (Morocco)</p>
-                <img className='ml-3' className='rounded-2xl' src='/images/dmitrii.jpg' width={100} height={100} alt='logo'/>
-                <p  className='font-bold'>Prabhmeet Singh Bhatti (India)</p>
-                <img className='ml-3' className='rounded-2xl' src='/images/dmitrii.jpg' width={100} height={100} alt='logo'/>
+               <p><span className='font-bold'>Dmitrii Kotikov</span> (Russia)</p>
+                
+                <div className='flex flex-row items-center'>
+                <img className='ml-3' className='rounded-2xl ' src='/images/dmitrii.jpg' width={100} height={100} alt='logo'/>
+                <ul className="list-disc pl-10"><li>Author of idea</li><li>Static site generators front-end and back-end</li><li>Website design</li></ul>
+                </div>
+
+                <p><span className='font-bold'>Houda Jaouhari</span> (Morocco)</p>
+                <div className='flex flex-row items-center'>
+                <img className='ml-3' className='rounded-2xl border border-qgrey' src='/images/logo.png' width={100} height={100} alt='logo'/>
+                <ul className="list-disc pl-10"><li>Marketing researcher</li><li>Project tester</li></ul>
+                </div>
+
+                <p><span className='font-bold'>Prabhmeet Singh Bhatti</span> (India)</p>
+
+                <div className='flex flex-row items-center'>
+                <img className='ml-3' className='rounded-2xl' src='/images/prabhmeet.jpg' width={100} height={100} alt='logo'/>
+                <ul className="list-disc pl-10"><li>Android developer</li><li>iOS developer</li></ul>
+                </div>
                
                
 
