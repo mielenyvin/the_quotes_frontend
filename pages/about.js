@@ -20,10 +20,18 @@ export default function AboutPage() {
                 </div>
 
                 <p><span className='font-bold'>Houda Jaouhari</span> (Morocco)</p>
-
+                <div className='flex flex-row items-center'>
+                <img className='ml-3 rounded-xl border border-qgrey' src='/images/logo.png' width={100} height={100} alt='logo'/>
+                <ul className="list-disc pl-10"><li>Marketing researcher</li><li>Project tester</li></ul>
+                </div>
 
                 <p><span className='font-bold'>Prabhmeet Singh Bhatti</span> (India)</p>
 
+                <div className='flex flex-row items-center'>
+                <img className='ml-3 rounded-xl' src='/images/prabhmeet.jpg' width={100} height={100} alt='logo'/>
+                <ul className="list-disc pl-10"><li>Android developer</li><li>iOS developer</li></ul>
+                </div>
+               
             </div>
 
           
