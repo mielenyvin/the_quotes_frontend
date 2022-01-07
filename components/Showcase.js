@@ -7,7 +7,7 @@ export default function Showcase() {
 {/* id="bgstyle" bg-repeat  */}
 
           <div className="w-full flex flex-row justify-center">
-    <h2 className="w-72 bg-transparent  text-white"> Find the truth in the middle2</h2></div>
+    <h2 className="w-72 bg-transparent  text-white">Find the truth</h2></div>
         </div>
     )
 }
