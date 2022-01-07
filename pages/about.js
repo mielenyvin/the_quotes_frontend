@@ -16,7 +16,7 @@ export default function AboutPage() {
 
                 <div className='flex flex-row items-center'>
                 <img className='ml-3 rounded-xl ' src='/images/dmitrii.jpg' width={100} height={100} alt='logo'/>
-                <ul className="list-disc pl-10"><li>Author of idea</li><li>Static site generators front-end and back-end development</li></ul>
+                <ul className="list-disc pl-10"><li>Author of the concept</li><li>Static site generators front-end and back-end development</li></ul>
                 </div>
 
                 <p><span className='font-bold'>Houda Jaouhari</span> (Morocco)</p>
@@ -29,7 +29,7 @@ export default function AboutPage() {
 
                 <div className='flex flex-row items-center'>
                 <img className='ml-3 rounded-xl' src='/images/prabhmeet.jpg' width={100} height={100} alt='logo'/>
-                <ul className="list-disc pl-10"><li>Android developer</li><li>iOS developer</li></ul>
+                <ul className="list-disc pl-10"><li>Development and maintenance of the Android/iOS Applications</li></ul>
                 </div>
                
             </div>
