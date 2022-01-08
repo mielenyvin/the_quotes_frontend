@@ -10,10 +10,9 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head />
-        <body className=' bg-qverylitegray font-lato'>
+        <body className=' bg-qblue font-lato'>
           <Main />
           <NextScript />
-          <div id='modal-root'></div>
         </body>
       </Html>
     )

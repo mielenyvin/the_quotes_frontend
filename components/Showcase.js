@@ -1,6 +1,6 @@
 export default function Showcase() {
     return (
-<div  id=""  className="p-8 bg-qgrey text-black font-semibold text-center">
+<div  id=""  className="p-8 bg-qgrey shadow-lg text-black font-semibold text-center">
 
 {/* <img className="" src='/images/download.svg' /> */}
 

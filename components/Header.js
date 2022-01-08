@@ -5,7 +5,7 @@ import Search from './Search'
 export default function Header() {
     return (
 
-        <header className=' bg-qblue text-white shadow w-full'>
+        <header className=' bg-qblue text-white w-full'>
 
 <div className='hidden bg-steel '></div>
 <div className='hidden  bg-alyminium'></div>
