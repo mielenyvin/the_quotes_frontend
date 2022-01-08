@@ -13,6 +13,10 @@ export default function Layout({title, keywords, desciprtion, children, categori
             <Head>
                 <title>{title}</title>
                 <link rel='icon' href='/favicon.ico' />
+                
+                <link rel="preconnect" href="https://fonts.gstatic.com" />
+                <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+
                 <meta name='description' content={desciprtion} />
                 <meta name='keywords' content={keywords} />
             </Head>

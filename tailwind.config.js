@@ -4,6 +4,9 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+      fontFamily: {
+        'lato': ['Lato']
+      },
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
@@ -26,6 +29,11 @@ module.exports = {
         'qverylitegray': '#fafafa',
         'qveryverylitegray' :'#fdfdfd'
       },
+      extend: {
+      fontFamily: {
+        'press-start': ['"Press Start 2P"', 'cursive']
+      }
+    }
   },
   variants: {
     extend: {

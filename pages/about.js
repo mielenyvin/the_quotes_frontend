@@ -10,25 +10,35 @@ export default function AboutPage() {
         the Quotes media (Version 1.0.0)
     </h3>
     <p>
-    This is an app to find the latest news and make a comprehensive vision of them.</p>
+This project comes as a response to the ever present and sometimes blatant media bias. </p>
+<p>
+We aim through it to provide our community with a <b>bigger picture</b> to approach the truth and have an objective standpoint.<br />This is a platform that accumulates the most current news from <b>two different point of views</b> and radically different sources. <br /> So that each individual can form his or her own opinion.
+</p>
                 <h1 className='text-2xl'>Project team:</h1>
                 <p><span className='font-bold'>Dmitry Kotikov</span> (Russia)</p>
 
                 <div className='flex flex-row items-center'>
-                <img className='ml-3 rounded-xl ' src='/images/dmitrii.jpg' width={100} height={100} alt='logo'/>
-                <ul className="list-disc pl-10"><li>Author of the concept</li><li>Static site generators front-end and back-end development</li></ul>
+                <img className='ml-3 rounded-xl ' src='/images/dmitrii.jpg' width={150} height={150} alt='logo'/>
+                <ul className="list-disc pl-10"><li>Project conceptualization</li><li>Static site generators front-end and back-end development</li></ul>
                 </div>
 
                 <p><span className='font-bold'>Houda Jaouhari</span> (Morocco)</p>
                 <div className='flex flex-row items-center'>
-                <img className='ml-3 rounded-xl border border-qgrey' src='/images/logo.png' width={100} height={100} alt='logo'/>
-                <ul className="list-disc pl-10"><li>Marketing researcher</li><li>Project tester</li></ul>
+                <img className='ml-3 rounded-xl border border-qgrey' src='/images/houda.jpg' width={150} height={150} alt='logo'/>
+                <ul className="list-disc pl-10">
+                    
+<li>Preliminary research</li>
+<li>Content creation</li>
+<li>Manual testing</li>
+<li>Documentation</li>
+<li>Legalities</li>
+</ul>
                 </div>
 
                 <p><span className='font-bold'>Prabhmeet Singh Bhatti</span> (India)</p>
 
                 <div className='flex flex-row items-center'>
-                <img className='ml-3 rounded-xl' src='/images/prabhmeet.jpg' width={100} height={100} alt='logo'/>
+                <img className='ml-3 rounded-xl' src='/images/prabhmeet.jpg' width={150} height={150} alt='logo'/>
                 <ul className="list-disc pl-10"><li>Development and maintenance of the Android/iOS Applications</li></ul>
                 </div>
                
