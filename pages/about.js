@@ -3,7 +3,7 @@ import Layout from '@/components/Layout'
 export default function AboutPage() {
     return (
         <Layout title='About the Quotes'>
-   <h1 className='text-5xl pb-5 font-bold'>About the Quotes</h1>
+   <h1 className='text-4xl pb-5 font-bold'>About the Quotes</h1>
 
 <div className='bg-white shadow-md p-5 rounded-lg py-6 '>
     <h3 className='text-2xl mb-5'>
@@ -17,28 +17,28 @@ We aim through it to provide our community with a <b>bigger picture</b> to appro
                 <h1 className='text-2xl'>Project team:</h1>
                 <p><span className='font-bold'>Dmitry Kotikov</span> (Russia)</p>
 
-                <div className='flex flex-row items-center'>
-                <img className='ml-3 rounded-xl ' src='/images/dmitrii.jpg' width={150} height={150} alt='logo'/>
+                <div className='flex flex-col sm:flex-row sm:items-center'>
+                <img className='rounded-xl mb-5'  src='/images/dmitrii.jpg' width={150} height={150} alt='logo'/>
                 <ul className="list-disc pl-10"><li>Project conceptualization</li><li>Static site generators front-end and back-end development</li></ul>
                 </div>
 
                 <p><span className='font-bold'>Houda Jaouhari</span> (Morocco)</p>
-                <div className='flex flex-row items-center'>
-                <img className='ml-3 rounded-xl border border-qgrey' src='/images/houda.jpg' width={150} height={150} alt='logo'/>
+                <div className='flex flex-col sm:flex-row sm:items-center'>
+                <img className='mb-5 rounded-xl border border-qgrey' src='/images/houda.jpg' width={150} height={150} alt='logo'/>
                 <ul className="list-disc pl-10">
                     
-<li>Preliminary research</li>
-<li>Content creation</li>
-<li>Manual testing</li>
-<li>Documentation</li>
-<li>Legalities</li>
-</ul>
+                <li>Preliminary research</li>
+                <li>Content creation</li>
+                <li>Manual testing</li>
+                <li>Documentation</li>
+                <li>Legalities</li>
+                </ul>
                 </div>
 
                 <p><span className='font-bold'>Prabhmeet Singh Bhatti</span> (India)</p>
 
-                <div className='flex flex-row items-center'>
-                <img className='ml-3 rounded-xl' src='/images/prabhmeet.jpg' width={150} height={150} alt='logo'/>
+                <div className='flex flex-col sm:flex-row sm:items-center'>
+                <img className='rounded-xl mb-5' src='/images/prabhmeet.jpg' width={150} height={150} alt='logo'/>
                 <ul className="list-disc pl-10"><li>Development and maintenance of the Android/iOS Applications</li></ul>
                 </div>
                
