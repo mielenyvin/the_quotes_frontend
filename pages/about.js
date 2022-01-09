@@ -18,15 +18,17 @@ We aim through it to provide our community with a <b>bigger picture</b> to appro
                 <p><span className='font-bold'>Dmitry Kotikov</span> (Russia)</p>
 
                 <div className='flex flex-col sm:flex-row sm:items-center'>
-                <img className='rounded-xl mb-5'  src='/images/dmitrii.jpg' width={150} height={150} alt='logo'/>
-                <ul className="list-disc pl-10"><li>Project conceptualization</li><li>Static site generators front-end and back-end development</li></ul>
+                <img className='rounded-xl '  src='/images/dmitrii.jpg' width={150} height={150} alt='logo'/>
+                <ul className="list-disc pt-3 sm:pt-0 pl-5 sm:pl-10">
+                <li>Project conceptualization</li>
+                <li>Static site generated front-end development</li>
+                <li>Headless CMS back-end development</li></ul>
                 </div>
 
                 <p><span className='font-bold'>Houda Jaouhari</span> (Morocco)</p>
                 <div className='flex flex-col sm:flex-row sm:items-center'>
-                <img className='mb-5 rounded-xl border border-qgrey' src='/images/houda.jpg' width={150} height={150} alt='logo'/>
-                <ul className="list-disc pl-10">
-                    
+                <img className='rounded-xl border border-qgrey' src='/images/houda.jpg' width={150} height={150} alt='logo'/>
+                <ul className="list-disc pt-3 sm:pt-0 pl-5 sm:pl-10">
                 <li>Preliminary research</li>
                 <li>Content creation</li>
                 <li>Manual testing</li>
@@ -38,8 +40,8 @@ We aim through it to provide our community with a <b>bigger picture</b> to appro
                 <p><span className='font-bold'>Prabhmeet Singh Bhatti</span> (India)</p>
 
                 <div className='flex flex-col sm:flex-row sm:items-center'>
-                <img className='rounded-xl mb-5' src='/images/prabhmeet.jpg' width={150} height={150} alt='logo'/>
-                <ul className="list-disc pl-10"><li>Development and maintenance of the Android/iOS Applications</li></ul>
+                <img className='rounded-xl' src='/images/prabhmeet.jpg' width={150} height={150} alt='logo'/>
+                <ul className="list-disc pt-3 sm:pt-0 pl-5 sm:pl-10"><li>Development and maintenance of the Android/iOS Applications</li></ul>
                 </div>
                
             </div>
