@@ -43,6 +43,15 @@ We aim through it to provide our community with a <b>bigger picture</b> to appro
                 <img className='rounded-xl' src='/images/prabhmeet.jpg' width={150} height={150} alt='logo'/>
                 <ul className="list-disc pt-3 sm:pt-0 pl-5 sm:pl-10"><li>Development and maintenance of the Android/iOS Applications</li></ul>
                 </div>
+
+                
+                <p><span className='font-bold'>Prof. Dr. Dipl.-Ing. (FH) Roland Riempp</span> (Germany)</p>
+                <div className='flex flex-col sm:flex-row sm:items-center'>
+                <img className='rounded-xl' src='/images/roland-riempp.jpg' width={150} height={150} alt='logo'/>
+                <ul className="list-disc pt-3 sm:pt-0 pl-5 sm:pl-10"><li>Project Supervisor</li></ul>
+                </div>
+
+
                
             </div>
 
