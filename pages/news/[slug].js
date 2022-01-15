@@ -5,7 +5,7 @@ import { marked } from 'marked'
 import Layout from '@/components/Layout'
 import { API_URL } from '@/config/index'
 import { useRouter } from 'next/router'
-
+import { FaCaretLeft } from 'react-icons/fa'
 export default function NewsPage({nw}) {
 
     const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
@@ -74,7 +74,8 @@ export default function NewsPage({nw}) {
 </div>
 <br />
 <Link href='/'>
-<a className=' text-qblue hover:text-qorange'>{'<'} Go Back</a></Link></div>
+<div className='cursor-pointer flex flex-row items-center text-gray-500'>
+        <div className='pr-1'><FaCaretLeft /></div><div className='text-qblue  hover:text-qorange'>Go Back</div></div></Link></div>
 
 </Layout>
     )
