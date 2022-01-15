@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 #bgstyle
 {background-image:url("/images/download.svg");   background-repeat: no-repeat;   background-position: center; opacity:1;
 }

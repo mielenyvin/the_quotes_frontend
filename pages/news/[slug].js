@@ -4,7 +4,6 @@ import CategoryLabel from '@/components/CategoryLabel'
 import { marked } from 'marked'
 import Layout from '@/components/Layout'
 import { API_URL } from '@/config/index'
-import styles from '@/styles/News.module.css'
 import { useRouter } from 'next/router'
 
 export default function NewsPage({nw}) {
@@ -21,7 +20,7 @@ export default function NewsPage({nw}) {
 <div className='w-full flex flex-col md:flex-row bg-white rounded-lg shadow-md '> 
 
 <div className='w-full md:w-6/12'>
-{nw.image && ( <img className='rounded-t-lg md:hidden  w-full' src={nw.image.url} /> ) }
+{nw.image && ( <img className='rounded-t-lg md:hidden w-full' src={nw.image.url} /> ) }
 {nw.image && ( <img className='rounded-l-lg hidden md:block  w-full' src={nw.image.url} /> ) }
 </div>
 
@@ -42,7 +41,7 @@ export default function NewsPage({nw}) {
 <div className='w-full lg:w-6/12 mt-5 p-5 md:flex-row bg-white rounded-lg shadow-md '> 
 
 <div className='flex align-baseline'>
-{nw.image && (<img alt='' className='mr-5 mb-5 border p-1' src={nw.media1_logo.url} width={100} height={100} /> ) }
+<div className="border p-1 mr-5 mb-5">{nw.image && (<Image alt='' className='mr-5 mb-5 border p-1' src={nw.media1_logo.url} width={100} height={100} /> ) }</div>
 <span className=''>Publicated on: {new Date(nw.media1_date).toLocaleDateString('en-GB', options)} </span>
 </div>
 
@@ -57,8 +56,8 @@ export default function NewsPage({nw}) {
 
 <div className='w-full lg:w-6/12 mt-5 lg:ml-5 p-5  bg-white rounded-lg shadow-md '> 
 
-<div className='flex align-baseline'>
-{nw.image && (<img alt='' className='mr-5 mb-5 border p-1' src={nw.media_2_logo.url} width={100} height={100} /> ) }
+<div className='flex align-baseline '>
+<div className="border p-1 mr-5 mb-5">{nw.image && (<Image alt='' className='' src={nw.media_2_logo.url} width={100} height={100} /> ) }</div>
 <span>Publicated on: {new Date(nw.media2_date).toLocaleDateString('en-GB', options)} </span>
 </div>
 

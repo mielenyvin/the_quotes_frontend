@@ -1,16 +1,12 @@
 
 import Layout from '@/components/Layout'
 import NewsItem from '@/components/NewsItem'
-import Pagination from '@/components/Pagination'
 import { API_URL, PER_PAGE } from '@/config/index'
 
 export default function NewsPage({news, page, total}) { 
 
   return (
     <Layout>
-      {/* <h1 className='text-5xl border-b-4 p-5'>Latest News</h1> */}
-
-     
 
       {news.length === 0 && <h3>No News to show</h3>}
 
@@ -22,7 +18,6 @@ export default function NewsPage({news, page, total}) {
 
       </div>
     
-<Pagination page={page} total={total} />
     </Layout>
   )
 }
@@ -32,12 +27,10 @@ export async function getServerSideProps({query: {page = 1}}) {
 const start = +page === 1 ? 0 : (+page - 1) * PER_PAGE
 
 // FETCH total / count
-
 const totalRes = await fetch(`${API_URL}/news/count`)
 const total = await totalRes.json()
 
 // Fetch news
-
   const newsRes = await fetch(`${API_URL}/news?_sort=date:ASC&_limit=${PER_PAGE}&_start=${start}`)
   const news = await newsRes.json()
 

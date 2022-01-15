@@ -1,7 +1,6 @@
 import Layout from '@/components/Layout'
 import NewsItem from '@/components/NewsItem'
 import NewsItemFeatured from '@/components/NewsItemFeatured'
-import Pagination from '@/components/Pagination'
 import { API_URL, PER_PAGE } from '@/config/index'
 
 export default function HomePage({news, page, total}) { 
@@ -27,8 +26,7 @@ export default function HomePage({news, page, total}) {
 
 
       </div>
-    
-<Pagination page={page} total={total} />
+
     </Layout>
   )
 }

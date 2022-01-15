@@ -1,7 +1,5 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import CategoryLabel from './CategoryLabel'
-// import styles from '@/styles/NewsItem.module.css'
 
 export default function NewsItem( {nw} ) {
     return (

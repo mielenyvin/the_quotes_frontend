@@ -12,10 +12,7 @@ e.preventDefault()
 router.push(`/news/search?term=${term}`)
 setTerm('')
 }
-
     return (
-
-  
 
 <div className='relative bg-gray p-4'>
 <div className='container mx-auto flex items-center justify-center md:justify-end'>

@@ -10,8 +10,6 @@ export default function CategoryLabel({ children }) {
     Health: 'steel'
   }
 
-
-
   return (
     <div
       className={`px-2 py-1 bg-${colorKey[children]} text-white font-semibold rounded`}
